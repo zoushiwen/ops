@@ -19,7 +19,7 @@ function check_mysql(){
     i=$?
     check_mysql_server=$(rpm -ql $MYSQL_SERER)
     if [ "$?" != 0 ] || [ "$i" != 0 ];then
-        yum -y install $MYSQL $MYSQL_SERER
+        yum -y localinstall $MYSQL $MYSQL_SERER
         service mysqld start
         if [ $? == 0 ];then
             echo -e "MySQL init success."
