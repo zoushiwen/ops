@@ -4,8 +4,8 @@ USER="root"
 password='you password'
 HOST='localhost'
 PORT=3306
-MYSQL='mysql-community-client-5.7.23-1.el6.x86_64'
-MYSQL_SERER='mysql-community-server-5.7.23-1.el6.x86_64'
+MYSQL='mysql-community-client-5.7.23'
+MYSQL_SERER='mysql-community-server-5.7.23'
 
 
 
